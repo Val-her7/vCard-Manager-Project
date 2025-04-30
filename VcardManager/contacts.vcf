@@ -1,4 +1,5 @@
 BEGIN:VCARD
+VERSION:4.0
 FN:John Doe
 TEL:+33123456789
 EMAIL:john.doe@email.com

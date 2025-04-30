@@ -1,0 +1,15 @@
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\bin\Debug\net9.0\VcardManager.exe
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\bin\Debug\net9.0\VcardManager.deps.json
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\bin\Debug\net9.0\VcardManager.runtimeconfig.json
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\bin\Debug\net9.0\VcardManager.dll
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\bin\Debug\net9.0\VcardManager.pdb
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\VcardManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\VcardManager.AssemblyInfoInputs.cache
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\VcardManager.AssemblyInfo.cs
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\VcardManager.csproj.CoreCompileInputs.cache
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\VcardManager.sourcelink.json
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\VcardManager.dll
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\refint\VcardManager.dll
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\VcardManager.pdb
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\VcardManager.genruntimeconfig.cache
+C:\Users\valou\OneDrive\Bureau\Repo-GitHub\vCard-Manager-Project\VcardManager\obj\Debug\net9.0\ref\VcardManager.dll

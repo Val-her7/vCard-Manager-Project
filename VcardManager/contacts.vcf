@@ -4,3 +4,10 @@ FN:John Doe
 TEL:+33123456789
 EMAIL:john.doe@email.com
 END:VCARD
+
+BEGIN:VCARD
+VERSION:4.0
+FN:Valentin Herman
+TEL:+32475329479
+EMAIL:valentin.hrm@email.com
+END:VCARD

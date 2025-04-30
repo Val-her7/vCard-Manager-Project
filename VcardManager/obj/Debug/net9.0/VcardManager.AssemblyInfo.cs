@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VcardManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14d4d6e450e6a100cebd4f71f0719ebf414f7aad")]
 [assembly: System.Reflection.AssemblyProductAttribute("VcardManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VcardManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,3 @@
-using System.Diagnostics.Contracts;
-
 namespace VcardManager
 {
     public class DisplayAllContacts

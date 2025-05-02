@@ -5,7 +5,7 @@ namespace VcardManager
     public class Program
     {
         public static void Main(string[] args)
-        {   
+        {
             Console.WriteLine("WELCOME TO THE VCARD MANAGER CONSOLE APP!");
             while (true)
             {
@@ -20,19 +20,31 @@ namespace VcardManager
                 Console.WriteLine("YOUR CHOICE: ");
 
                 int choice;
-                while(!int.TryParse(Console.ReadLine(), out choice)){
+                while (!int.TryParse(Console.ReadLine(), out choice))
+                {
                     Console.WriteLine("PLEASE ENTER A NUMBER!");
                 }
 
                 string path = "contacts.vcf";
                 List<string> lines = ReadFile.ReadAllLines(path);
 
-                switch(choice){
+                switch (choice)
+                {
                     case 1:
-                        DisplayAllContacts.DisplayAll(lines);
+                        DisplayContacts.DisplayAll(lines);
                         break;
                     case 2:
                         AddNewContact.AddContact(path);
+                        break;
+                    case 3:
+                        Console.WriteLine("ENTER A NAME: ");
+                        string? name = Console.ReadLine();
+                        while (string.IsNullOrEmpty(name.Trim()))
+                        {
+                            Console.WriteLine("PLEASE ENTER A NAME: ");
+                            name = Console.ReadLine();
+                        }
+                        DisplayContacts.DisplayOne(lines, name);
                         break;
                     case 0:
                         return;
@@ -40,7 +52,6 @@ namespace VcardManager
                         Console.WriteLine("PLEASE ENTER A VALID CHOICE!");
                         break;
                 }
-                
             }
         }
     }

@@ -14,7 +14,7 @@ namespace VcardManager
                 }
                 else if (line.StartsWith("FN:") && current != null)
                 {
-                    current.FirstName = line.Substring(3);
+                    current.FullName = line.Substring(3);
                 }
                 else if (line.StartsWith("TEL:") && current != null)
                 {

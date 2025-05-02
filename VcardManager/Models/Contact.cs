@@ -2,14 +2,14 @@ namespace VcardManager
 {
     public class Contact
     {
-        private string firstName;
+        private string fullName;
         private string telephoneNumber;
         private string email;
 
-        public string FirstName
+        public string FullName
         {
-            get => firstName;
-            set => firstName = value;
+            get => fullName;
+            set => fullName = value;
         }
 
         public string TelephoneNumber
@@ -26,14 +26,14 @@ namespace VcardManager
 
         public Contact()
         {
-            this.firstName = "Unknown";
+            this.fullName = "Unknown";
             this.telephoneNumber = "Unknown";
             this.email = "Unknown";
         }
 
         public override string ToString()
         {
-            return $"NAME: {this.firstName}, TEL: {this.telephoneNumber}, EMAIL: {this.email}";
+            return $"NAME: {this.fullName}, TEL: {this.telephoneNumber}, EMAIL: {this.email}";
         }
     }
 }

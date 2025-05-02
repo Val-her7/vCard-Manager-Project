@@ -5,9 +5,8 @@ namespace VcardManager.Services
 {
     public class ReadFile
     {
-        public static List<string> ReadAllLines()
+        public static List<string> ReadAllLines(string path)
         {
-            string path = "contacts.vcf";
             List<string> lines = new List<string>();
             try
             {

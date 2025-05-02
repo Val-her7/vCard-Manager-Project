@@ -24,11 +24,15 @@ namespace VcardManager
                     Console.WriteLine("PLEASE ENTER A NUMBER!");
                 }
 
-                List<string> lines = ReadFile.ReadAllLines();
+                string path = "contacts.vcf";
+                List<string> lines = ReadFile.ReadAllLines(path);
 
                 switch(choice){
                     case 1:
                         DisplayAllContacts.DisplayAll(lines);
+                        break;
+                    case 2:
+                        AddNewContact.AddContact(path);
                         break;
                     case 0:
                         return;

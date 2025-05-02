@@ -5,32 +5,37 @@ namespace VcardManager.Services
 {
     public class ReadFile
     {
-        public static void ReadAllLines()
+        public static List<string> ReadAllLines()
         {
             string path = "contacts.vcf";
+            List<string> lines = new List<string>();
             try
             {
                 using (StreamReader sr = new StreamReader(path))
                 {
-                    string? ligne;
-                    if ((ligne = sr.ReadLine()) == null)
+                    string? line = sr.ReadLine();
+                    if (line == null)
                     {
-                        Console.WriteLine("Empty File.");
+                        lines.Add("Empty file.");
+                        return lines;
                     }
-                    while ((ligne = sr.ReadLine()) != null)
-                    {
-                        Console.WriteLine(ligne);
+                    lines.Add(line);
+                    while ((line = sr.ReadLine()) != null)
+                    {   
+                        lines.Add(line);
                     }
+                    return lines;
                 }
             }
             catch (FileNotFoundException e)
             {
-                Console.WriteLine("File not found: " + e.Message);
+                Console.WriteLine($"File not found: {e.Message}");
             }
             catch (Exception e)
             {
                 Console.WriteLine($"Something went wrong: {e.Message}");
             }
+            return lines;
         }
     }
 }

@@ -33,7 +33,7 @@ namespace VcardManager
 
         public override string ToString()
         {
-            return $"NAME: {this.firstName}, TEL: {this.telephoneNumber}, Email: {this.email}";
+            return $"NAME: {this.firstName}, TEL: {this.telephoneNumber}, EMAIL: {this.email}";
         }
     }
 }
